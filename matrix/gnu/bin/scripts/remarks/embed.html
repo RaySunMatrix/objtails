@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+     <link rel="stylesheet" href="/matrix/gnu/bin/scripts/css/embed.css">
+    <title>Embed Board Scripts</title>
+</head>
+<body>
+      <h1>Add Option of Elements</h1>
+      <p>Hello World!</p>
+      Embed Board Scripts(option 1):<br><br><br><br>
+      <script>
+           // code here
+      </script>
+      External Board Scripts (option 2)<br> <!-- item products corn a million -->
+      <script src="/matrix/gnu/bin/scripts/js/ctx.js">
+          document.getElementById("paragraph").textContent = "Hello World!";
+          const element = document.createElement('p');
+          element.textContent = "Hello World!";
+          document.body.appendChild(element); // add news elements to pages DOM
+          // quick speed runtime foo bar
+          const foo = "bar";
+          console.log("foo");
+          const varThis = "First Values";
+          const thatVar = "Second Values";
+          console.log("vaThis", varThis, "and thatVar", thatVar);
+          const greet = "Hello", who = "World!";
+          console.log("%s, %s!", greet, who);
+          console.log(document.body); // ai token
+          window.alert(onmessage);
+          document.createElementNS('http://www.w3.org/2000/svg', `text`);
+          const xhttp = new XMLHttpRequest();
+          xhttp.onreadystatechange = function () {
+                if (xhttp.readyState === XMLHttpRequest.DONE && xhttp.status === 200) {
+//parse the response in xhttp.responseText;
+                }
+          };
+          xhttp.open("GET", "ajax_info.txt", true);
+          xhttp.send();
+
+      </script>
+      <p id="paragraph">Hello World!</p> <!-- context pages html online -->
+      <label for="text"></label><textarea id="text"></textarea>
+      Send Message
+
+</body>
+</html>

@@ -1,0 +1,10 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="obtails" type="NodeJSConfigurationType" editBeforeRun="true" focusToolWindowBeforeRun="true" singleton="false" application-parameters="$CMakeProjectDir$" node-parameters="$CMakeProjectDir$" working-dir="$PROJECT_DIR$">
+    <output_file is_save="true" />
+    <log_file alias="objtails" path="$PROJECT_DIR$" show_all="true" />
+    <EXTENSION ID="com.jetbrains.nodejs.run.NodeJSProfilingRunConfigurationExtension">
+      <profiling one-log-file="true" do-profile="true" />
+    </EXTENSION>
+    <method v="2" />
+  </configuration>
+</component>
